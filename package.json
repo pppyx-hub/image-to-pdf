@@ -1,0 +1,11 @@
+{
+  "name": "image-to-pdf",
+  "version": "1.0.0",
+  "private": true,
+  "description": "纯前端、离线可用的图片转 PDF 工具，零第三方依赖",
+  "license": "MIT",
+  "scripts": {
+    "check": "node --check pdf-core.js && node --check app.js",
+    "test": "node --test tests/pdf-core.test.mjs"
+  }
+}
